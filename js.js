@@ -30,13 +30,9 @@ function spinnerOn() {
         for (let i = 0; i < boxResult.length; i++){
            
             text +=  `<p class="py-3 border1">The Fibonacci Of <strong>${boxResult[i].number}</strong> is <strong>${boxResult[i].result}</strong> calculated at <strong>${new Date(boxResult[i].createdDate)}</strong></p> `;
-
-    
             document.getElementById("resultServer").innerHTML = text
-
          console.log(resultServerVar)
       
-            
         }
     }
     )
